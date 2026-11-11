@@ -1,0 +1,6 @@
+{
+  "name": "MC Oran — Official Club Portal",
+  "description": "Official digital home of Mouloudia Club d'Oran (MC Oran) — News, Squad, Matches, Statistics, Tickets, Store, and Club Heritage.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

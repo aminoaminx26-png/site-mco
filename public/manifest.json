@@ -1,0 +1,18 @@
+{
+  "name": "MC Oran — مولودية وهران",
+  "short_name": "MC Oran",
+  "description": "الموقع الرسمي لنادي مولودية وهران - أخبار، مباريات، تذاكر، متجر وإحصائيات",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#111111",
+  "theme_color": "#C8102E",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/f/fc/MC_Oran_-_logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

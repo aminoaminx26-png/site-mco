@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="ar" dir="rtl" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>مولودية وهران | MC Oran — الموقع الرسمي</title>
+  <meta name="description" content="الموقع الرسمي لنادي مولودية وهران (MC Oran) — تأسس سنة 1946. آخر الأخبار، جدول المباريات، التشكيلة، الإحصائيات، التذاكر، والمتجر الرسمي." />
+  <meta name="keywords" content="مولودية وهران, MC Oran, MCO, الحمراوة, ملعب ميلود هدفي, الدوري الجزائري, كرة القدم الجزائرية" />
+  <meta name="theme-color" content="#C8102E" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Open Graph / Social -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="مولودية وهران | MC Oran — الموقع الرسمي" />
+  <meta property="og:description" content="البوابة الرقمية الرسمية لنادي مولودية وهران — أخبار، مباريات، تذاكر، متجر وإحصائيات." />
+  <meta property="og:image" content="/assets/hero-stadium.jpg" />
+  <meta property="og:locale" content="ar_DZ" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="مولودية وهران | MC Oran" />
+  <meta name="twitter:description" content="الموقع الرسمي لنادي مولودية وهران تأسس 1946." />
+  <meta name="twitter:image" content="/assets/hero-stadium.jpg" />
+
+  <!-- PWA Manifest & Icons -->
+  <link rel="manifest" href="/manifest.json" />
+  <link rel="icon" type="image/svg+xml" href="https://upload.wikimedia.org/wikipedia/commons/f/fc/MC_Oran_-_logo.png" />
+  <link rel="apple-touch-icon" href="https://upload.wikimedia.org/wikipedia/commons/f/fc/MC_Oran_-_logo.png" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&family=Inter:wght@400;500;600;700&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="/css/main.css" />
+
+  <!-- Schema.org Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SportsTeam",
+    "name": "Mouloudia Club d'Oran (MC Oran)",
+    "alternateName": "مولودية وهران",
+    "sport": "Football",
+    "foundingDate": "1946-05-14",
+    "url": "https://mco-oran.dz",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/f/fc/MC_Oran_-_logo.png",
+    "location": {
+      "@type": "Place",
+      "name": "Miloud Hadefi Stadium",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Oran",
+        "addressCountry": "DZ"
+      }
+    }
+  }
+  </script>
+</head>
+<body>
+  <!-- Sticky Glassmorphism Header -->
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <a href="#home" class="brand-link" data-route="home" aria-label="MC Oran Home">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/MC_Oran_-_logo.png" alt="MC Oran Crest" class="brand-crest" width="42" height="48" />
+        <div class="brand-text">
+          <span class="brand-name" data-i18n="clubName">مولودية وهران</span>
+          <span class="brand-sub">MC ORAN · 1946</span>
+        </div>
+      </a>
+
+      <!-- Primary Desktop Navigation -->
+      <nav class="main-nav" aria-label="Main Navigation">
+        <a href="#home" data-route="home" data-i18n="navHome">الرئيسية</a>
+        <a href="#news" data-route="news" data-i18n="navNews">الأخبار</a>
+        <a href="#matches" data-route="matches" data-i18n="navMatches">المباريات</a>
+        <a href="#players" data-route="players" data-i18n="navPlayers">اللاعبون</a>
+        <a href="#statistics" data-route="statistics" data-i18n="navStats">الإحصائيات</a>
+        <a href="#shop" data-route="shop" data-i18n="navShop">المتجر</a>
+        <a href="#tickets" data-route="tickets" data-i18n="navTickets">التذاكر</a>
+        <a href="#history" data-route="history" data-i18n="navHistory">التاريخ</a>
+      </nav>
+
+      <!-- Header Utilities -->
+      <div class="header-actions">
+        <button id="search-trigger" class="icon-btn" aria-label="Search" title="Search">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+        </button>
+
+        <div class="lang-switcher" role="group" aria-label="Language">
+          <button class="lang-btn active" data-lang="ar">AR</button>
+          <button class="lang-btn" data-lang="fr">FR</button>
+          <button class="lang-btn" data-lang="en">EN</button>
+        </div>
+
+        <button id="theme-toggle" class="icon-btn" aria-label="Toggle Theme" title="Dark / Light Mode">
+          <svg class="sun-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+        </button>
+
+        <button id="cart-trigger" class="icon-btn cart-btn" aria-label="Shopping Cart">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="8" cy="21" r="1"/><circle cx="19" cy="21" r="1"/><path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"/></svg>
+          <span id="cart-count" class="cart-badge">0</span>
+        </button>
+
+        <button id="pwa-install-btn" class="btn btn-sm btn-outline hidden" data-i18n="installApp">تثبيت التطبيق</button>
+
+        <button id="mobile-menu-btn" class="icon-btn mobile-only" aria-label="Menu">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <aside id="mobile-drawer" class="mobile-drawer" aria-hidden="true">
+    <div class="drawer-header">
+      <span class="brand-name" data-i18n="clubName">مولودية وهران</span>
+      <button id="close-drawer" class="icon-btn" aria-label="Close Menu">&times;</button>
+    </div>
+    <nav class="drawer-nav">
+      <a href="#home" data-route="home" data-i18n="navHome">الرئيسية</a>
+      <a href="#news" data-route="news" data-i18n="navNews">الأخبار</a>
+      <a href="#matches" data-route="matches" data-i18n="navMatches">المباريات</a>
+      <a href="#results" data-route="results" data-i18n="navResults">النتائج</a>
+      <a href="#table" data-route="table" data-i18n="navTable">الترتيب</a>
+      <a href="#players" data-route="players" data-i18n="navPlayers">اللاعبون</a>
+      <a href="#staff" data-route="staff" data-i18n="navStaff">الطاقم الفني</a>
+      <a href="#statistics" data-route="statistics" data-i18n="navStats">الإحصائيات</a>
+      <a href="#history" data-route="history" data-i18n="navHistory">التاريخ</a>
+      <a href="#legends" data-route="legends" data-i18n="navLegends">الأساطير</a>
+      <a href="#fans" data-route="fans" data-i18n="navFans">الجماهير</a>
+      <a href="#gallery" data-route="gallery" data-i18n="navGallery">المعرض</a>
+      <a href="#videos" data-route="videos" data-i18n="navVideos">الفيديوهات</a>
+      <a href="#shop" data-route="shop" data-i18n="navShop">المتجر</a>
+      <a href="#tickets" data-route="tickets" data-i18n="navTickets">التذاكر</a>
+      <a href="#admin" data-route="admin" data-i18n="navAdmin">لوحة الإدارة</a>
+    </nav>
+  </aside>
+
+  <!-- Instant Search Modal -->
+  <div id="search-modal" class="modal-backdrop hidden" role="dialog" aria-modal="true" aria-label="Instant Search">
+    <div class="modal-card glass-panel search-modal-card">
+      <div class="search-input-wrap">
+        <input type="search" id="global-search-input" class="search-input" placeholder="ابحث عن لاعب، خبر، مباراة، منتج..." autocomplete="off" />
+        <button id="close-search" class="icon-btn" aria-label="Close Search">&times;</button>
+      </div>
+      <div id="search-results" class="search-results"></div>
+    </div>
+  </div>
+
+  <!-- Shopping Cart Drawer -->
+  <aside id="cart-drawer" class="cart-drawer" aria-hidden="true">
+    <div class="drawer-header">
+      <h3 data-i18n="cartTitle">سلة التسوق</h3>
+      <button id="close-cart" class="icon-btn" aria-label="Close Cart">&times;</button>
+    </div>
+    <div id="cart-items" class="cart-items"></div>
+    <div class="cart-footer">
+      <div class="cart-total-row">
+        <span data-i18n="total">المجموع</span>
+        <strong id="cart-total">0 DZD</strong>
+      </div>
+      <button id="checkout-btn" class="btn btn-primary btn-block" data-i18n="checkout">إتمام الطلب</button>
+    </div>
+  </aside>
+
+  <!-- Main Dynamic View Root -->
+  <main id="app-root" class="app-root"></main>
+
+  <!-- Toast Notification -->
+  <div id="toast" class="toast hidden" role="status" aria-live="polite"></div>
+
+  <!-- Professional Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <div class="brand-link">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/MC_Oran_-_logo.png" alt="MC Oran" width="44" height="50" />
+          <div>
+            <h4 data-i18n="clubName">مولودية وهران</h4>
+            <p class="muted-text">Mouloudia Club d'Oran · Est. 1946</p>
+          </div>
+        </div>
+        <p class="footer-desc" data-i18n="footerDesc">
+          نادي مولودية وهران، عميد أندية الغرب الجزائري وقلعة الحمراوة. شغف، تاريخ، وأمجاد منذ 1946.
+        </p>
+      </div>
+
+      <div class="footer-col">
+        <h5 data-i18n="footerClub">النادي</h5>
+        <ul>
+          <li><a href="#history" data-route="history" data-i18n="navHistory">التاريخ</a></li>
+          <li><a href="#legends" data-route="legends" data-i18n="navLegends">الأساطير</a></li>
+          <li><a href="#staff" data-route="staff" data-i18n="navStaff">الطاقم الفني</a></li>
+          <li><a href="#sponsors" data-route="sponsors" data-i18n="navSponsors">الرعاة</a></li>
+          <li><a href="#admin" data-route="admin" data-i18n="navAdmin">لوحة الإدارة</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5 data-i18n="footerFans">الجماهير والخدمات</h5>
+        <ul>
+          <li><a href="#fans" data-route="fans" data-i18n="navFans">الجماهير</a></li>
+          <li><a href="#gallery" data-route="gallery" data-i18n="navGallery">المعرض</a></li>
+          <li><a href="#videos" data-route="videos" data-i18n="navVideos">الفيديوهات</a></li>
+          <li><a href="#tickets" data-route="tickets" data-i18n="navTickets">التذاكر</a></li>
+          <li><a href="#shop" data-route="shop" data-i18n="navShop">المتجر</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5 data-i18n="footerSupport">الدعم والقانونية</h5>
+        <ul>
+          <li><a href="#contact" data-route="contact" data-i18n="navContact">اتصل بنا</a></li>
+          <li><a href="#faq" data-route="faq" data-i18n="navFaq">الأسئلة الشائعة</a></li>
+          <li><a href="#privacy" data-route="privacy" data-i18n="navPrivacy">سياسة الخصوصية</a></li>
+          <li><a href="#terms" data-route="terms" data-i18n="navTerms">الشروط والأحكام</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>&copy; 2026 MC Oran — مولودية وهران. <span data-i18n="rights">جميع الحقوق محفوظة.</span></p>
+      <p class="muted-text">Miloud Hadefi Stadium · Oran, Algeria</p>
+    </div>
+  </footer>
+
+  <!-- ES2025 Modular Scripts -->
+  <script type="module" src="/js/app.js"></script>
+</body>
+</html>

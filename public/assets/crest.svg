@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 240" role="img" aria-label="MC Oran Official Crest">
+  <defs>
+    <linearGradient id="mcoRed" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E31837"/>
+      <stop offset="100%" stop-color="#9B0A20"/>
+    </linearGradient>
+    <linearGradient id="mcoGold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F6D365"/>
+      <stop offset="100%" stop-color="#D4AF37"/>
+    </linearGradient>
+  </defs>
+  <!-- Outer Shield -->
+  <path d="M100 8 L184 36 L184 128 C184 178 144 214 100 232 C56 214 16 178 16 128 L16 36 Z" fill="#111111" stroke="url(#mcoGold)" stroke-width="5"/>
+  <!-- Inner Shield -->
+  <path d="M100 18 L174 43 L174 126 C174 170 138 202 100 219 C62 202 26 170 26 126 L26 43 Z" fill="url(#mcoRed)"/>
+  <!-- White Diagonal Sash -->
+  <path d="M26 105 L174 55 L174 92 L26 142 Z" fill="#FFFFFF"/>
+  <!-- Top Star -->
+  <polygon points="100,26 104,37 116,37 106,44 110,55 100,48 90,55 94,44 84,37 96,37" fill="url(#mcoGold)"/>
+  <!-- Club Monogram -->
+  <text x="100" y="102" text-anchor="middle" font-family="Arial, sans-serif" font-weight="900" font-size="30" fill="#111111" letter-spacing="2">MCO</text>
+  <!-- Founding Year -->
+  <rect x="64" y="156" width="72" height="24" rx="4" fill="#111111"/>
+  <text x="100" y="173" text-anchor="middle" font-family="Arial, sans-serif" font-weight="800" font-size="14" fill="#FFFFFF" letter-spacing="2">1946</text>
+</svg>
